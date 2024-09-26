@@ -1,7 +1,7 @@
 import React from 'react'
 import videoBg from '../assets/videoBg.mp4'
 
-const Main = () => {
+const Banner = () => {
   return (
     <div className='w-full h-screen relative'>
       <video className='w-full h-2/3 object-cover ' src={videoBg} autoPlay loop muted/>
@@ -37,4 +37,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Banner

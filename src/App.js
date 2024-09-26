@@ -1,12 +1,13 @@
 import React from "react";
-import Main from "./components/Main";
+import Banner from "./components/Banner";
 import Header from "./components/header";
+
 
 function App(){
   return (
     <div>
       <Header />
-      <Main />
+      <Banner />
     </div>
   );
 }
